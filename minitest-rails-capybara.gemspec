@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<minitest-rails>, ["~> 0.9.1"])
+      s.add_runtime_dependency(%q<minitest-rails>, [">= 0.9.1"])
       s.add_runtime_dependency(%q<capybara>, ["~> 2.0"])
       s.add_runtime_dependency(%q<minitest-capybara>, ["~> 0.4"])
       s.add_runtime_dependency(%q<minitest-metadata>, ["~> 0.4"])
